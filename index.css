@@ -68,6 +68,14 @@ button {
     font-weight: 400;
     line-height: 28px; 
 }
+button:hover {
+    border: 2px solid #d0d3d9;  
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
 .highlight {
     color: #f1c40f; /* Changes text to gold/yellow */
     text-shadow: 0 0 10px #f1c40f; /* Adds a glowing effect */
